@@ -29,7 +29,7 @@ Automatic update is currently disabled for this version. To update:
 
 * Copy your existing extension settings
 * Delete all references to Lg\_add\_cp\_tabs\_ext from the exp_extensions db table by running the following sql:  
-<code>DELETE FROM `exp_extensions` WHERE `class` = 'Lg\_add\_cp\_tabs\_ext'</code>
+<code>DELETE FROM \`exp_extensions\` WHERE \`class\` = 'Lg\_add\_cp\_tabs\_ext'</code>
 * Remove:
 	* <code>system/extensions/ext.lg\_add\_cp\_tabs\_ext.php</code>
 	* <code>system/languages/english/lang.lg\_add\_cp\_tabs\_ext.php</code>
